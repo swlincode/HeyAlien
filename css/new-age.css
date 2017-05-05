@@ -3,6 +3,7 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
 .heading-font {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
@@ -29,13 +30,6 @@ a {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   color: #fdcc52;
-}
-input #submitNum{
-    -webkit-transition: all 0.35s;
-  -moz-transition: all 0.35s;
-  transition: all 0.35s;
-  color: #fdcc52;
-    
 }
 a:hover,
 a:focus {
@@ -162,10 +156,12 @@ header {
   /* fallback for old browsers */
 /*  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #0076ff);*/
   /* Chrome 10-25, Safari 5.1-6 */
-/*    background: url("../img/bg-pattern.png"), linear-gradient(to left, #a6ff86, #00a793);*/
+    background: url("../img/bg-pattern.png"), linear-gradient(to left, #006fce, #3bb9aa);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background: url("../img/banner.jpg");
-    background-position: center; 
+/*
+background: url("../img/bubble.jpg");
+    background-position:center; 
+*/
   color: white;
 }
 header .header-content {
@@ -234,7 +230,7 @@ section h2 {
   font-size: 50px;
 }
 section.download {
-  padding: 150px 0;
+  padding: 90px 0;
   position: relative;
 }
 section.download h2 {
@@ -311,7 +307,7 @@ section.cta {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/bg-cta.png');
+  background-image: url('../img/bg-cta.jpg');
   padding: 250px 0;
     
 /*
